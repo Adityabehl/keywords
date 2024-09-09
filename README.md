@@ -28,7 +28,6 @@
 
 ~CPU:-The central processing unit (CPU) is the primary component of a computer that performs most of the processing tasks.often to referred to as the "brain" of the computer, the CPU executes instruction from proggrams through its control unit, arthmetic logic unit(ALU),and registers.
 
-image alt image alt
 
 ~GPU:-A Gaphics processing unit(GPU) is a specialized processor designed to handle and accelerate the rendering of images, video and animation. unlike a CPU,which is optimised for general-purpose computing task, a GPU is optimized for parllel processing,meaning it can handle many operations simultaneously.
 
@@ -204,3 +203,18 @@ Together, these components work to create a complete web application, with the f
 
 18. Ethernet
           Ethernet is a family of wired computer networking technologies commonly used in local area networks (LAN), metropolitan area networks (MAN) and wide area networks (WAN). It was commercially introduced in 1980 and first standardized in 1983 as IEEE 802.3
+
+
+ 19. Hypervisor
+     A hypervisor is a software layer that allows multiple virtual machines (VMs) to run on the same physical machine. It's also known as a virtual machine monitor (VMM)
+     #### >Types of hypervisor
+ (i)Type 1
+
+Also known as a bare-metal or native hypervisor, this type of hypervisor runs directly on the host's hardware. It's more secure and stable than Type 2 hypervisors, and is often used in enterprise data centers and server-based environments. Type 1 hypervisors can implement their own resource allocation strategies for virtual machines (VMs). Examples of Type 1 hypervisors include Microsoft Hyper-V, VMware vSphere, and KVM. 
+ 
+(ii)Type 2
+
+Also known as a hosted hypervisor, this type of hypervisor runs on top of an operating system as a software layer or application. Type 2 hypervisors are easier to install, configure, and use than Type 1 hypervisors, and are more user-friendly. However, Type 2 hypervisors are less efficient than Type 1 hypervisors because they negotiate resource allocation with the operating system. Examples of Type 2 hypervisors include VMware Workstation, Oracle VirtualBox, and Parallels Desktop
+ 
+ 
+ 
